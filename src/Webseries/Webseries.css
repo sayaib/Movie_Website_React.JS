@@ -1,0 +1,14 @@
+.series_body{
+    padding: 2rem 0;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+
+img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
