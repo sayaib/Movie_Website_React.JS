@@ -14,7 +14,10 @@ const Manu = () =>{
         <Nav.Link href="/">Home</Nav.Link>
 
         <NavDropdown title="HBO" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/GOT">Game of Thrones</NavDropdown.Item>
+          <NavDropdown.Item href="/got">Game of Thrones</NavDropdown.Item>
+        </NavDropdown>
+        <NavDropdown title="Disney+" id="basic-nav-dropdown">
+          <NavDropdown.Item href="/whatif">What If...?</NavDropdown.Item>
         </NavDropdown>
 
         <NavDropdown title="Marvel" Variant="dark" id="basic-nav-dropdown">

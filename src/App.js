@@ -5,6 +5,8 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Home from './Home';
 import GOT from './Webseries/GOT';
+import WhatIf from './Webseries/WhatIf';
+
 
 function App() {
   return (
@@ -13,7 +15,8 @@ function App() {
     <BrowserRouter>
        <Switch>
        <Route exact path="/" component={Home} />
-      <Route exact path="/GOT" component={GOT} />
+      <Route exact path="/got" component={GOT} />
+      <Route exact path="/whatif" component={WhatIf} />
       </Switch>
       </BrowserRouter>
     </>
