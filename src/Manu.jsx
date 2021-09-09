@@ -1,13 +1,13 @@
 import React from "react";
 import {Container,Navbar,Nav,NavDropdown} from 'react-bootstrap';
-import GOT from '../Webseries/GOT';
+import GOT from './Webseries/GOT';
 
 const Manu = () =>{
     return(
         <>
-        <Navbar bg="dark" variant="dark" expand="lg">
+        <Navbar bg="success" variant="dark" expand="lg">
   <Container>
-    <Navbar.Brand href="/">Movies Flix</Navbar.Brand>
+    <Navbar.Brand href="/">Movies Drive</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ms-auto">

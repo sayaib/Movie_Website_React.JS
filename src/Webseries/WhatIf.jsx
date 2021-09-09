@@ -1,6 +1,7 @@
 import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./Webseries.css";
+import {Button} from 'react-bootstrap';
 
 const WhatIf = () => {
   return (
@@ -15,10 +16,44 @@ const WhatIf = () => {
           creating a multiverse of infinite possibilities.
         </h6>
         <img
-          className="mt-5"
+          className="mt-5 pb-4"
           src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/BD6794165D02040B9E83010226F93F2CE42226DB2C3F587F854B49A4B64C095E/scale?width=1200&aspectRatio=1.78&format=jpeg"
           alt="Logo"
         />
+        <hr />
+        <h6>
+          What.IF-S01.1080p.HDR10-HEVC.ENGLISH.Esubs.UHDMOVIES.in.mkv [1.5GB/E]
+        </h6>
+        <Button variant="success" size="sm">
+          Episode 1
+        </Button>
+        <Button variant="success" size="sm">
+          Episode 2
+        </Button>
+        <Button variant="success" size="sm">
+          Episode 3
+        </Button>
+        <Button variant="success" size="sm">
+          Episode 4
+        </Button>
+        <Button variant="success" size="sm">
+          Episode 5
+        </Button>
+
+        <hr />
+        <p className="pt-5">
+          Here you can download 1080p x264 UHD, 1080p 60FPS, 1080p x265 10Bit,
+          4k HDR, 4k 2160p SDR & 3D Movies through Google Drive Links.
+          High-quality movies with the best quality options and maximum
+          bitrates. We also focus on providing the best quality audio available.
+          4k HEVC Dolby Atmos is one of the best High-quality formats with low
+          file sizes. We provide a fast & safe direct google drive link to
+          download the best quality stuff from the best Encoders. You can easily
+          clone our files into your G-Drive and make your own collection of
+          high-quality movies. Google Drive Direct/Login to download/Make Clone
+          option are the best way to download or make a copy in your google
+          drive.
+        </p>
       </div>
     </>
   );

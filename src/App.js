@@ -1,6 +1,6 @@
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import Manu from './MoviePages/Manu';
+import Manu from './Manu';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Home from './Home';
