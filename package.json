@@ -1,6 +1,7 @@
 {
-  "name": "moviesflix",
+  "name": "moviesdrive",
   "version": "0.1.0",
+  "homepage": "http://moviesdrive.epizy.com/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",

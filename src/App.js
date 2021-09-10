@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from './Home';
 import GOT from './Webseries/GOT';
 import WhatIf from './Webseries/WhatIf';
+import Lucifer from './Webseries/Lucifer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
        <Route exact path="/" component={Home} />
       <Route exact path="/got" component={GOT} />
       <Route exact path="/whatif" component={WhatIf} />
+      <Route exact path="/lucifer" component={Lucifer} />
       </Switch>
       </BrowserRouter>
     </>

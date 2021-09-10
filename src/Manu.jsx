@@ -12,7 +12,10 @@ const Manu = () =>{
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ms-auto">
         <Nav.Link href="/">Home</Nav.Link>
-
+        
+        <NavDropdown title="Netflix" id="basic-nav-dropdown">
+          <NavDropdown.Item href="/lucifer">Lucifer</NavDropdown.Item>
+        </NavDropdown>
         <NavDropdown title="HBO" id="basic-nav-dropdown">
           <NavDropdown.Item href="/got">Game of Thrones</NavDropdown.Item>
         </NavDropdown>

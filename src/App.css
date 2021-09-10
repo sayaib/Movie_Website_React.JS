@@ -40,19 +40,49 @@
 
 
 .body {
-  margin: auto;
-  width: 90%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+
+
+.movie_card {
+  margin: 1rem;
+  width: 20%;
+  height: 350px;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  text-align: center;
 
 }
 
-.movie_card {
-  text-align: center;
-  padding: 0.5rem;
-  width: 100%;
-  border: 1px solid seagreen;
-  height: auto;
+@media screen and (max-width:1000px) {
+  .movie_card {
+    width: 40%;
+  }
+
+}
+
+
+@media screen and (max-width:620px) {
+  .movie_card {
+    width: 45%;
+    margin: 0.5rem;
+    height: 300px;
+  }
+  .title{
+    font-size: 1rem;
+  }
+  .btn{
+    font-size: small;
+  }
+
+  .body {
+    width: 100%;
+  }
+
 }
 
 .cardImg {
@@ -61,3 +91,4 @@
   height: auto;
   border-radius: 5px;
 }
+

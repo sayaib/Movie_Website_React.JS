@@ -1,7 +1,7 @@
 import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./Webseries.css";
-import {Button} from 'react-bootstrap';
+import { Button } from "react-bootstrap";
 
 const WhatIf = () => {
   return (
@@ -24,21 +24,31 @@ const WhatIf = () => {
         <h6>
           What.IF-S01.1080p.HDR10-HEVC.ENGLISH.Esubs.UHDMOVIES.in.mkv [1.5GB/E]
         </h6>
-        <Button variant="success" size="sm">
-          Episode 1
-        </Button>
-        <Button variant="success" size="sm">
-          Episode 2
-        </Button>
-        <Button variant="success" size="sm">
-          Episode 3
-        </Button>
-        <Button variant="success" size="sm">
-          Episode 4
-        </Button>
-        <Button variant="success" size="sm">
-          Episode 5
-        </Button>
+        <a target="_blank" href="https://terabox.com/s/1O5rOo1Zs77yOe6WSm8fCmw">
+          <Button variant="success" size="sm">
+            Episode 1
+          </Button>
+        </a>
+        <a target="_blank" href="https://terabox.com/s/1x5HL8S8FKlbOh8YyEnJQqg">
+          <Button variant="success" size="sm">
+            Episode 2
+          </Button>
+        </a>
+        <a target="_blank" href="https://terabox.com/s/1HfbniovdyDrf2s2m2pvDJA">
+          <Button variant="success" size="sm">
+            Episode 3
+          </Button>
+        </a>
+        <a target="_blank" href="https://terabox.com/s/1tHjWo5_yO4cIj_kl0jAd7A">
+          <Button variant="success" size="sm">
+            Episode 4
+          </Button>
+        </a>
+        <a target="_blank" href="https://terabox.com/s/1lEWGoGvAuz3K5P01Ij9txQ">
+          <Button variant="success" size="sm">
+            Episode 5
+          </Button>
+        </a>
 
         <hr />
         <p className="pt-5">
