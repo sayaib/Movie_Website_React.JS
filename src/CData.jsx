@@ -41,5 +41,33 @@ const CData = [
     imdb: "IMDB: 8/10",
     link: "/",
   },
+  {
+    name: "Avengers: Age of Ultron",
+    image:
+      "https://miro.medium.com/max/1200/1*A13DHLs01iiGgvRZiiAmzg.jpeg",
+    imdb: "IMDB: 7.3/10",
+    link: "/",
+  },
+  {
+    name: "Avengers: Infinity War",
+    image:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/4652/674652-h",
+    imdb: "IMDB: 8.4/10",
+    link: "/",
+  },
+  {
+    name: "Avengers: Endgame",
+    image:
+      "https://i.ytimg.com/vi/XhVUuqQ8PaA/maxresdefault.jpg",
+    imdb: "IMDB: 8.4/10",
+    link: "/",
+  },
+  {
+    name: "Black Panther",
+    image:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/4416/674416-h",
+    imdb: "IMDB: 7.3/10",
+    link: "/",
+  },
 ];
 export default CData;
