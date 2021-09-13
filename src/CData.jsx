@@ -20,5 +20,26 @@ const CData = [
     imdb: "IMDB: 9.2/10",
     link: "/got",
   },
+  {
+    name: "Ant-Man",
+    image:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/4480/674480-h",
+    imdb: "IMDB: 7.3/10",
+    link: "/",
+  },
+  {
+    name: "Ant-Man and the Wasp",
+    image:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/4667/674667-h",
+    imdb: "IMDB: 7/10",
+    link: "/",
+  },
+  {
+    name: "The Avengers",
+    image:
+      "https://i.ytimg.com/vi/k-POG1-Cp1k/maxresdefault.jpg",
+    imdb: "IMDB: 8/10",
+    link: "/",
+  },
 ];
 export default CData;
