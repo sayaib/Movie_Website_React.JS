@@ -69,5 +69,6 @@ const CData = [
     imdb: "IMDB: 7.3/10",
     link: "/",
   },
+  
 ];
 export default CData;
