@@ -1,6 +1,5 @@
 {
   "name": "moviesdrive",
-  "homepage": "https://sayaib.github.io/movie_website_react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
